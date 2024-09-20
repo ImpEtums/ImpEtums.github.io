@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;700&display=swap');
+
+.md-typeset h5 {
+    font-size: large;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5 {
+    font-weight: 600;
+}
+
+body,
+input {
+    font-family: 'LXGW WenKai Screen', 'Lexend', 'Noto Sans SC', 'Source Code Pro', -apple-system, Helvetica, Arial, sans-serif;
+}
+
+center,
+p,
+li {
+    font-size: medium;
+}
+
+.md-nav__link {
+    font-size: small;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+    border: none;
+}
+
+.md-tabs__link {
+    margin-top: .8rem;
+    opacity: .4;
+    font-family: var(--md-text-font-family);
+}
