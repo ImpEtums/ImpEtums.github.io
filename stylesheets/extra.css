@@ -43,3 +43,48 @@ li {
     opacity: .4;
     font-family: var(--md-text-font-family);
 }
+
+.md-tabs__link--active,
+.md-tabs__link:is(:focus, :hover) {
+    color: inherit;
+    opacity: 1;
+}
+
+.md-typeset details:not([open]) {
+    box-shadow: var(--md-shadow-z2);
+    padding-bottom: 0;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+    box-shadow: var(--md-shadow-z2);
+}
+
+/* .md-typeset img, */
+.md-typeset video {
+    box-shadow: var(--md-shadow-z1);
+    border-radius: 5px;
+}
+
+.md-typeset .md-button {
+    border: .15rem solid;
+    border-radius: .0rem;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: .225em 2em;
+    transition: color 125ms,background-color 125ms,border-color 125ms;
+}
+
+/* Customized admonitions: https://squidfunk.github.io/mkdocs-material/reference/admonitions/#customization */
+
+
+.md-typeset .admonition, .md-typeset details {
+    font-size: inherit;
+}
+
+/* definition */
+
+:root {
+    --md-admonition-icon--definition: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M1.5 21 12 3.5 22.5 21h-21M12 21l5-9H7l5 9Z"/></svg>')
+}
