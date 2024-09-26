@@ -31,26 +31,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ImpEtums.github.io/cs%E7%94%9F%E5%AD%98%E6%8C%87%E5%8C%97/%E4%B8%80%E4%BA%9B%E5%9C%A8%E5%BC%80%E5%AD%A6%E5%89%8D%E5%BA%94%E8%AF%A5%E7%9C%8B%E7%9A%84%E4%B8%9C%E8%A5%BF/</loc>
-         <lastmod>2024-09-26</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ImpEtums.github.io/cs%E7%94%9F%E5%AD%98%E6%8C%87%E5%8C%97/%E5%A6%82%E4%BD%95%E9%80%89%E8%AF%BE/</loc>
-         <lastmod>2024-09-26</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ImpEtums.github.io/cs%E7%94%9F%E5%AD%98%E6%8C%87%E5%8C%97/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
-         <lastmod>2024-09-26</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ImpEtums.github.io/cs%E7%94%9F%E5%AD%98%E6%8C%87%E5%8C%97/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</loc>
-         <lastmod>2024-09-26</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://ImpEtums.github.io/eating/%E5%9B%9E%E5%AE%B6%E5%90%83%E9%A5%AD/</loc>
          <lastmod>2024-09-26</lastmod>
          <changefreq>daily</changefreq>
@@ -72,6 +52,26 @@
     </url>
     <url>
          <loc>https://ImpEtums.github.io/eating/%E9%9D%A2/</loc>
+         <lastmod>2024-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ImpEtums.github.io/in-class/software-engineering/</loc>
+         <lastmod>2024-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ImpEtums.github.io/in-class/%E4%B8%80%E4%BA%9B%E5%9C%A8%E5%BC%80%E5%AD%A6%E5%89%8D%E5%BA%94%E8%AF%A5%E7%9C%8B%E7%9A%84%E4%B8%9C%E8%A5%BF/</loc>
+         <lastmod>2024-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ImpEtums.github.io/in-class/%E5%A6%82%E4%BD%95%E9%80%89%E8%AF%BE/</loc>
+         <lastmod>2024-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ImpEtums.github.io/in-class/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
          <lastmod>2024-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
