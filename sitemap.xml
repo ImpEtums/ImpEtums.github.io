@@ -121,6 +121,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://ImpEtums.github.io/in-class/se/</loc>
+         <lastmod>2025-01-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://ImpEtums.github.io/in-class/software-engineering/</loc>
          <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
