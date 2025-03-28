@@ -1080,6 +1080,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#chapter-4-从需求到架构" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chapter 4 从需求到架构
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2260,6 +2269,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#chapter-4-从需求到架构" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chapter 4 从需求到架构
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2280,7 +2298,7 @@
 
 <h1 id="软件架构分析与设计">软件架构分析与设计<a class="headerlink" href="#软件架构分析与设计" title="Permanent link">&para;</a></h1>
 <div style="margin-top: -30px; font-size: 0.75em; opacity: 0.7;">
-<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10h-2a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8V2m6.78 1a.69.69 0 0 0-.48.2l-1.22 1.21 2.5 2.5L20.8 5.7c.26-.26.26-.7 0-.95L19.25 3.2c-.13-.13-.3-.2-.47-.2m-2.41 2.12L9 12.5V15h2.5l7.37-7.38-2.5-2.5Z"/></svg></span> 约 2109 个字 <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8m0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10C6.47 22 2 17.5 2 12S6.5 2 12 2m.5 11H11V7h1.5v4.26l3.7-2.13.75 1.3L12.5 13Z"/></svg></span> 预计阅读时间 7 分钟</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10h-2a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8V2m6.78 1a.69.69 0 0 0-.48.2l-1.22 1.21 2.5 2.5L20.8 5.7c.26-.26.26-.7 0-.95L19.25 3.2c-.13-.13-.3-.2-.47-.2m-2.41 2.12L9 12.5V15h2.5l7.37-7.38-2.5-2.5Z"/></svg></span> 约 2124 个字 <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8m0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10C6.47 22 2 17.5 2 12S6.5 2 12 2m.5 11H11V7h1.5v4.26l3.7-2.13.75 1.3L12.5 13Z"/></svg></span> 预计阅读时间 7 分钟</p>
 </div>
 <h2 id="chapter-1-认识软件架构">Chapter 1 认识软件架构<a class="headerlink" href="#chapter-1-认识软件架构" title="Permanent link">&para;</a></h2>
 <h3 id="11-软件架构与软工">1.1 软件架构与软工<a class="headerlink" href="#11-软件架构与软工" title="Permanent link">&para;</a></h3>
@@ -2389,7 +2407,7 @@
 <h2 id="chapter-3-软件架构的描述与可视化">Chapter 3 软件架构的描述与可视化<a class="headerlink" href="#chapter-3-软件架构的描述与可视化" title="Permanent link">&para;</a></h2>
 <h3 id="31-架构描述与架构视图">3.1 架构描述与架构视图<a class="headerlink" href="#31-架构描述与架构视图" title="Permanent link">&para;</a></h3>
 <blockquote>
-<p><strong>架构视图的定义：</strong>架构视图是对于从<strong>某一视角</strong>看到的系统所做的<strong>简化描述</strong>，它涵盖了系统的某一特定方面，而省略了与此方面无关的实体。</p>
+<p><strong>★架构视图的定义：</strong>架构视图是对于从<strong>某一视角</strong>看到的系统所做的<strong>简化描述</strong>，它涵盖了系统的某一特定方面，而省略了与此方面无关的实体。</p>
 </blockquote>
 <h4 id="311-五个基本架构">3.1.1 五个基本架构<a class="headerlink" href="#311-五个基本架构" title="Permanent link">&para;</a></h4>
 <p>为了满足整个软件生命周期中，了解、理解架构设计思想和实现目标的需要，可以首先从以下5个方面描述和认识架构。</p>
@@ -2411,6 +2429,8 @@
 <p><strong>数据架构：</strong>反映的是<strong>数据需求</strong>。在这里应考虑数据的分布、生成与应用的关系，设计合适的<strong>数据持久化存储</strong>和传递策略等。数据存储格式、数据字典、安全备份、复制、同步、数据传递是这里主要考虑的内容</p>
 </li>
 </ol>
+<p>架构描述的顺序：</p>
+<h2 id="chapter-4-从需求到架构">Chapter 4 从需求到架构<a class="headerlink" href="#chapter-4-从需求到架构" title="Permanent link">&para;</a></h2>
 
 
 
